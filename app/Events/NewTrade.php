@@ -34,6 +34,6 @@ class NewTrade implements ShouldBroadcast
     public function broadcastOn()
     {
 //        return new PrivateChannel('channel-name');
-        return new Channel('trade');
+        return new Channel('trades');
     }
 }
